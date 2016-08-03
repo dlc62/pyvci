@@ -10,7 +10,7 @@
 # selecting basis states for inclusion in the VCI matrix based upon their         #
 # VPT2 energy contribution. This screening procedure reduces both time and memory #
 # requirements. Our algorithm is described in detail in Sibaev and Crittenden,    #
-# J. Phys. Chem., In press. 
+# J. Chem. Phys., In press.                                                       # 
 #                                                                                 #
 # Separate README files detailing the installation and usage of each program are  #
 # provided in each .tgz archive. User manuals are provided in docs/               #
