@@ -1,0 +1,18 @@
+#=================================================================================#
+#                                                                                 #
+# The PyVCI code is a straightforward implementation of the vibrational           #
+# configuration interaction algorithm, with basis states generated according to   #
+# 'excitation level', defined as a harmonic oscillator product function with a    #
+# specified maximum sum of quantum numbers. For more details, see Sibaev and      #
+# Crittenden, Comp. Phys. Comm., 203, 2016, 290-297.                              #
+#                                                                                 #
+# The VPT2-screened VCI code (PyVCI_VPT2) largely supercedes the PyVCI code,      #
+# selecting basis states for inclusion in the VCI matrix based upon their         #
+# VPT2 energy contribution. This screening procedure reduces both time and memory #
+# requirements. Our algorithm is described in detail in Sibaev and Crittenden,    #
+# J. Phys. Chem., In press. 
+#                                                                                 #
+# Separate README files detailing the installation and usage of each program are  #
+# provided in each .tgz archive. User manuals are provided in docs/               #
+#                                                                                 #
+#=================================================================================#
