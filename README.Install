@@ -1,0 +1,16 @@
+Dependencies:
+- Python3.0+ (recommended: Python3.5+)
+- Cython0.21+ (recommended: Cython0.21)
+- Numpy1.8.0+ (recommended: Numpy1.8.0)
+- Scipy0.31.2+ (recommended: Scipy0.16)
+Optional:
+- GAMESS (for generating force fields by numerical differentiation)
+
+PyVCI has not been developed or tested for ARM processors (M1/M2 chips).
+To install PyVCI on newer Macs, a virtual conda environment may be set
+up to emulate intel chips and provide access to earlier python versions:
+
+CONDA_SUBDIR=osx-64 conda create -n rosetta python=3.5 
+conda activate rosetta
+python -c "import platform;print(platform.machine())"
+conda config --env --set subdir osx-64      # make sure that conda commands in this environment use intel packages
